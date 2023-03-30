@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>proyek Javascript DOM dan css</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-logo">
+            NINJA KEN
+        </div>
+        <span class="fa fa-bars menu-icon"></span>
+        <div class="header-list">
+            <ul>
+                <li>Tentang saya</li>
+                <li>Proyek Contoh</li>
+                <li>Hubungi Saya</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- main -->
+    <div class="main">
+        <div class="copy-container">
+            <h1>NINJA KEN <span>.</span></h1>
+            <h2>MY PORTOFOLIO</h2>
+            <img src="Ninja Ken.png">
+        </div>
+        <div class="tentang">
+            <h3 class="section-title">Tentang Saya</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
+                deserunt quidem cum, veritatis, minima facere magni quia deleniti iure sed! Deserunt inventore pariatur
+                quia recusandae dicta odio! Asperiores, mollitia!</p>
+        </div>
+
+    </div>
+    <div class="gambar">
+        <h1>Proyek Contoh</h1>
+        <div class="slider">
+            <div class="flexbox">
+                <img src="1.png" alt="" class="popup" data-popup="Ini adalah deskripsi gambar 1
+                ">
+                <p>image 1</p>
+            </div>
+            <div class="flexbox">
+                <img src="2.png" alt="" class="popup" data-popup="Ini adalah deskripsi gambar 2
+               ">
+                <p>image 2</p>
+            </div>
+            <div class="flexbox">
+                <img src="3.png" alt="" class="popup" data-popup="Ini adalah deskripsi gambar 3
+               ">
+                <p>image 3</p>
+            </div>
+            <div class="flexbox">
+                <img src="3.png" alt="" class="popup" data-popup="Ini adalah deskripsi gambar 4
+               ">
+                <p>image 4</p>
+            </div>
+            <div class="flexbox">
+                <img src="Ninja Ken.png" alt="" class="popup" data-popup="Ini adalah deskripsi gambar ninja ken
+               ">
+                <p>Ninja ken</p>
+            </div>
+            <div class="btn">
+                <button><i class='bx bxs-chevron-left'></i></i></button>
+                <button><i class='bx bxs-chevron-right'></i></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="kontak">
+        <h3 class="section-title">Hubungi Saya</h3>
+        <input type="text" placeholder="Email(diperlukan)" id="input-text">
+        <div id="error-message"></div>
+        <textarea placeholder="message(diperlukan)" id="input-area"></textarea>
+        <div id="message-error-message"></div>
+        <input class="contact-submit" type="submit" value="kirim">
+
+    </div>
+    <div class="footer">
+        <div class="footer-logo">NINJA KEN</div>
+        <div class="footer-list">
+            <ul>
+                <li>FAQ
+                    <ul>
+                        <div class="container-faq">
+
+                            <div class="question">
+                                <div class="answer">
+                                    <li>dimana lokasi anda?</li>
+                                </div>
+                                <div class="body">
+                                    <div class="body-content">
+                                        lokasi berada di jalan jamin ginting pasar 7
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="question">
+                                <div class="answer">
+                                    <li>bagaimana cara daftar?</li>
+                                </div>
+                                <div class="body">
+                                    <div class="body-content">
+                                      anda harus buat akun baru dulu
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </ul>
+                </li>
+                <li>Tentang</li>
+                <li>Karier</li>
+                <li>Hubungi Kami</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+<script src="main.js"></script>
+
+</html>

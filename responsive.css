@@ -1,0 +1,65 @@
+@media (max-width:670px){
+    
+    .content{
+        width: 50%;
+       
+      display: inline;
+    }
+    .kontak{
+       margin-top: 1000px;
+      
+    }
+    .header-logo{
+      font-size: 15px;
+    }
+    .header-list li{
+      font-size: 15px;
+     padding: 10px 20px;
+     float:right;
+    }
+    input,textarea{
+      width: 300px;
+    }
+    .footer-logo{
+      font-size: 20px;
+    }
+    .footer-list{
+      font-size: 10px;
+    }
+    .slider{
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
+.slider .btn{
+    padding: 0;
+    margin: 0;
+    top: 30%;
+   
+
+}
+  .footer{
+    margin: 0;
+    padding: 0;
+  }
+  .footer-list ul{
+    font-size: 18px;
+  }
+  .kontak{
+    margin: 0;
+  }
+  .answer{
+    font-size: 15px;
+    min-height: 1rem;
+  }
+  .body-content{
+    font-size: 15px;
+  }
+}
+@media (max-width:1000px){
+  .slider{
+    margin: 0;
+    padding: 0;
+    width: auto;
+  }
+}
